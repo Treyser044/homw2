@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav img{
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.nav__title{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #424242;
+    padding-top: 48px;
+    padding-bottom: 53px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav__title:before{
+    content: url(img/Vector\ \(1\).png);
+}
+
+.form__nav{
+    display: flex;
+    color: #F0400F;
+    width: 650px;
+    border-radius: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 66px 50px 37px 64px;
+}
+
+.form__nav-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.parent__student {
+    display: flex;
+    background-color:#F5F5F5;
+    border-radius: 20px;
+    width: 533px;
+    margin: auto;
+    height: 70px;
+    align-items: center;
+    padding: 8px 11px;
+    }
+    .parent, .student{
+    padding: 10px 40px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;}
+    .student{
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    }
+    h1{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:#0E0D50;
+    text-align: center;
+    margin-top: 131px;
+    margin-bottom: 20px;
+    }
+
+    .main{
+        width: 650px;
+height: 786px;
+top: 246px;
+left: 395px;
+border-radius: 50px;
+border-width: 1px;
+border: 1px solid #DEDBDB
+
+    }
+
+    .input{
+        width: 533px;
+height: 70px;
+top: 607px;
+left: 459px;
+border-radius: 20px;
+border-width: 1px;
+padding-left: 20px;
+font-family: Inter;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+
+    }
+
+    .user{
+        display: flex;
+        justify-content: center;
+        padding-top: 39px;
+    }
+
+    .user__kir{
+
+        justify-content: center;
+    }
+
+    .QR{
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000A3;
+    font-family: Inter;
+    }
+
+    .btn{width: 202px;
+        height: 67px;
+        border-radius: 20px;
+        background: #F69E86;
+        border-color: #F69E86;
+        border: 0px solid #000;
+        font-family: Inter;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+
+        }
+
+        .btn__place{
+            margin: 15px 64px 37px 415px;
+        }
